@@ -23,7 +23,6 @@ export class PurchaseStorePage {
 
   async addProductToShopList() {
     await this.page.waitForTimeout(2000);
-    // await expect(this.page.locator('[data-testid="adicionarNaLista"]')).toBeVisible();
     await this.page.getByRole('button', { name: 'Adicionar a lista' }).first().click();
   }
 
