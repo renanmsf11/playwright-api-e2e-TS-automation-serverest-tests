@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "strict": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "baseUrl": ".",         
+      "paths": {
+        "@pages/*": ["tests/pages/*"]
+      },
+      "outDir": "dist"
+    },
+    "include": ["tests/**/*.ts"]
+  }

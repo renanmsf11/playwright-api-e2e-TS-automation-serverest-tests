@@ -1,6 +1,9 @@
 import { test } from '@playwright/test';
-import { RegisterPage } from '../pages/RegisterPage';
-import { LoginPage } from '../pages/LoginPage';
+// import { RegisterPage } from '../pages/RegisterPage';
+// import { LoginPage } from '../pages/LoginPage';
+
+import { RegisterPage } from '@pages/registerPage';
+import { LoginPage } from '@pages/loginPage';
 
 let loginPage: LoginPage;
 let registerPage: RegisterPage;

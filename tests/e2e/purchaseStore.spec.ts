@@ -1,7 +1,11 @@
 import { test } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
-import { RegisterPage } from '../pages/RegisterPage';
-import { PurchaseStorePage } from '../pages/PurchaseStorePage';
+// import { LoginPage } from '../pages/LoginPage';
+// import { RegisterPage } from '../pages/RegisterPage';
+// import { PurchaseStorePage } from '../pages/PurchaseStorePage';
+
+import { LoginPage } from '@pages/loginPage';
+import { RegisterPage } from '@pages/registerPage';
+import { PurchaseStorePage } from '@pages/purchaseStorePage';
 
 test.beforeEach(async ({ page }) => {
   const registerPage = new RegisterPage(page);

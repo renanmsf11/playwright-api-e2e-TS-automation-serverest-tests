@@ -1,6 +1,9 @@
 import { test } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
-import { RegisterPage } from '../pages/RegisterPage';
+// import { LoginPage } from '../pages/LoginPage';
+// import { RegisterPage } from '../pages/RegisterPage';
+
+import { RegisterPage } from '@pages/registerPage';
+import { LoginPage } from '@pages/loginPage';
 
 test('User login in serverest and is redirected to the home page', async ({ page }) => {
   const registerPage = new RegisterPage(page);
