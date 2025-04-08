@@ -3,7 +3,7 @@
 
 This repository contains a suite of E2E and API tests using the **Playwright** framework, for the SERVEREST application.
 
-![Playwright Tests](https://github.com/renanmsf11/playwright-api-e2e-automation-serverest-tests/actions/workflows/playwright.yml/badge.svg?branch=main)
+![Playwright Tests](https://github.com/renanmsf11/playwright-api-e2e-TS-automation-serverest-tests/actions/workflows/playwright.yml/badge.svg?branch=main)
 
 ---
 
