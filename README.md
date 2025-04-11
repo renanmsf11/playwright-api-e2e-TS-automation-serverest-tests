@@ -83,16 +83,4 @@ npx playwright show-report
 - **Jest-like assertions** (`expect`)
 - **API Testing** with `request.newContext()`
 
----
 
-## 📌 Notes
-
-- API tests use `https://serverest.dev` as the base URL.
-- POMs are implemented in TypeScript for better typing and IDE support.
-- Reports and logs are automatically generated after test runs.
-
----
-
-## 📂 Selector Organization
-
-- All selectors are centralized within the POMs.
